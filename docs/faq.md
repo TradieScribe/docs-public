@@ -165,14 +165,14 @@ Yes! The app works offline for most features. Changes sync when you reconnect.
 
 Multiple ways to reach us:
 - **Email**: support@tradiescribe.com
-- **Phone**: 1300 XXX XXX (Mon-Fri, 9am-5pm AEST)
+- **Phone**: [Contact for phone number] (Mon-Fri, 9am-5pm AEST)
 - **Live Chat**: Available in the app
 - **Help Center**: help.tradiescribe.com
 
 ### What are support hours?
 
 Email and chat support: 24/7
-Phone support: Monday-Friday, 9am-5pm AEST
+Phone support: [Contact for business hours]
 
 ### Do you offer training?
 

@@ -63,5 +63,5 @@ Click "Forgot Password" on the login page and follow the instructions.
 
 If you need help, contact us at:
 - Email: support@tradiescribe.com
-- Phone: 1300 XXX XXX
+- Phone: [Contact for phone number]
 - Live chat: Available in the app

@@ -47,30 +47,17 @@ We welcome contributions to improve our documentation! Please see [CONTRIBUTING.
 
 This documentation is written in Markdown and can be viewed with any Markdown viewer or documentation generator.
 
-### Using MkDocs (Recommended)
+### Using MkDocs
 
 ```bash
-# Install MkDocs
-pip install mkdocs mkdocs-material
+# Install dependencies
+pip install -r requirements.txt
 
 # Serve documentation locally
 mkdocs serve
 
 # Build static site
 mkdocs build
-```
-
-### Using Docusaurus
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# Build for production
-npm run build
 ```
 
 ### Using Plain Markdown
@@ -102,7 +89,7 @@ This documentation is licensed under the [MIT License](LICENSE).
 Need help with TradieScribe?
 
 - 📧 Email: support@tradiescribe.com
-- 📞 Phone: 1300 XXX XXX
+- 📞 Phone: [Contact for phone number]
 - 💬 Live Chat: Available in the app
 - 🌐 Help Center: help.tradiescribe.com
 

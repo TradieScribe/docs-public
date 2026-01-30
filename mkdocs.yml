@@ -37,8 +37,8 @@ theme:
     - content.action.edit
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  # logo: assets/logo.png  # Add your logo here
+  # favicon: assets/favicon.ico  # Add your favicon here
 
 nav:
   - Home: index.md
@@ -79,7 +79,5 @@ extra:
       link: https://github.com/TradieScribe
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/tradiescribe
-  version:
-    provider: mike
 
 copyright: Copyright &copy; 2026 TradieScribe

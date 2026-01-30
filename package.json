@@ -1,7 +1,7 @@
 {
   "name": "tradiescribe-docs",
   "version": "1.0.0",
-  "description": "TradieScribe Documentation",
+  "description": "TradieScribe Documentation - Note: Requires Python and 'pip install -r requirements.txt' before running scripts",
   "scripts": {
     "docs:dev": "mkdocs serve",
     "docs:build": "mkdocs build",
