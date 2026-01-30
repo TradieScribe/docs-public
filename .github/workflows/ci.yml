@@ -1,0 +1,45 @@
+name: Documentation CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches-ignore:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Validate documentation build
+        run: |
+          mkdocs build --strict
+
+      - name: Check links
+        run: |
+          # Install linkchecker if needed
+          # pip install linkchecker
+          # linkchecker site/
+          echo "Link checking placeholder - add linkchecker if needed"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: documentation-preview
+          path: site/

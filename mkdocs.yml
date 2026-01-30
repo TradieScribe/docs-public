@@ -1,0 +1,83 @@
+site_name: TradieScribe Documentation
+site_url: https://docs.tradiescribe.com
+site_description: Official documentation for TradieScribe - Business management for tradespeople
+site_author: TradieScribe Team
+
+repo_name: TradieScribe/docs-public
+repo_url: https://github.com/TradieScribe/docs-public
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+  # logo: assets/logo.png  # Add your logo here
+  # favicon: assets/favicon.ico  # Add your favicon here
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guides:
+    - guides/index.md
+    - Best Practices: guides/best-practices.md
+  - API Reference:
+    - api/index.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TradieScribe
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tradiescribe
+
+copyright: Copyright &copy; 2026 TradieScribe
