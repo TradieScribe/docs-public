@@ -1,0 +1,24 @@
+{
+  "name": "tradiescribe-docs",
+  "version": "1.0.0",
+  "description": "TradieScribe Documentation",
+  "scripts": {
+    "docs:dev": "mkdocs serve",
+    "docs:build": "mkdocs build",
+    "docs:deploy": "mkdocs gh-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TradieScribe/docs-public.git"
+  },
+  "keywords": [
+    "documentation",
+    "tradiescribe"
+  ],
+  "author": "TradieScribe Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TradieScribe/docs-public/issues"
+  },
+  "homepage": "https://github.com/TradieScribe/docs-public#readme"
+}
